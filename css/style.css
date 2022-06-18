@@ -1,0 +1,84 @@
+
+.largura-limitada{
+    max-width:1024px;
+}
+
+
+.cores-container{
+    display:flex;
+    flex-direction: row;
+    align-self: auto;
+    justify-content: space-between;
+}
+    
+
+
+.cores{
+    border:1px solid black;
+    min-width: 45px;
+    min-height: 45px;
+    display:flex;
+    
+}
+
+.cores:hover {
+    /* box-shadow: 5px 5px 5px 5px #1f4b7c; */
+    box-shadow: 2px 2px 6px #525e14;
+}
+
+.senha-container {
+    display:flex;
+    flex-direction: row;
+}
+
+.senha img{
+    max-width:50px;
+    min-height: 45px;
+}
+
+.senha {
+    margin:2px;
+}
+
+.centralizada {
+    margin:2px auto;
+}
+
+.painel-acerto {
+    display:none;
+}
+
+.painel-erro {
+    display:none;
+}
+
+#reiniciar {
+    display: none;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.branco{
+    background-color: white;
+}
+.preto{
+    background-color: black;
+}
+.vermelho{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
+.amarelo{
+    background-color: yellow;
+}
+.rosa{
+    background-color: pink;
+}
+.azul-escuro{
+    background-color: darkblue;
+}
+
